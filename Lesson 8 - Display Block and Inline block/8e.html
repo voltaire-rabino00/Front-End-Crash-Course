@@ -20,6 +20,24 @@
     border: none;
     margin: 4px;
     padding: 10px;
+    margin-bottom: 8px;
+  }
+
+  button {
+    margin-top: 20px;
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-right: 15px;
+    border: none;
+
+  }
+  .request-button {
+    color: white;
+    background-color: black;
+  }
+  .sched {
+    background-color: rgb(228, 225, 225);
   }
 </style>
 <body>
@@ -30,11 +48,11 @@
   <input type="text" placeholder="Enter pickup location">
   <input type="text" placeholder="Enter Destination">
 
-  <button>
+  <button class="request-button">
     Request Now
   </button>
 
-  <button>
+  <button class="sched">
     Schedule for later
   </button>
 </body>
