@@ -1,0 +1,13 @@
+
+.friend-request {
+  width: 180px;
+  height: 300px;
+  margin-left: 30px;
+  display: inline-block;
+}
+
+.cover {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
