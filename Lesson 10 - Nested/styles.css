@@ -1,13 +1,49 @@
 
 .friend-request {
-  width: 180px;
-  height: 300px;
+  width: 200px;
+  height: 320px;
   margin-left: 30px;
   display: inline-block;
+  border-width: 1px;
+  border: none;
+  box-shadow: 5px 5px 10px gray;
 }
 
 .cover {
-  width: 180px;
+  width: 200px;
   height: 180px;
   object-fit: cover;
+}
+
+.profile {
+  width: 40px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+p {
+  font-family: Arial;
+  font-weight: bold;
+  margin-left: 8px;
+  line-height: 1px;
+}
+
+.name {
+  font-size: 15px;
+}
+
+.friend {
+  color: gray;
+  font-size: 12px;
+  vertical-align: middle;
+}
+
+button {
+  background-color: rgb(85, 85, 243);
+  color: white;
+  margin-left: 8px;
+  padding: 11px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
