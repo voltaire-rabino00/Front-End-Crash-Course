@@ -1,0 +1,9 @@
+.item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.item1, .item2,.item3,.item4 {
+  background-color: lightpink;
+}

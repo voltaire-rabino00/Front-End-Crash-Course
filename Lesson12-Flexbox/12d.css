@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  border-width: 1;
+  border-style: solid;
+  border-color: gray;
+  justify-content: space-between;
+  align-items: center;
+}
+.items {
+  background-color: lightpink;
+}
