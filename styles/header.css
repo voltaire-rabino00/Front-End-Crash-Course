@@ -1,0 +1,20 @@
+.header {
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+}
+
+.left-section {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.middle-section {
+  background-color: lightpink;
+  flex: 1;
+}
+
+.right-section {
+  background-color: lightblue;
+  width: 200px;
+}
