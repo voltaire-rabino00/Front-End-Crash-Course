@@ -1,0 +1,25 @@
+div {
+  font-family: Arial;
+}
+.container {
+ border-width: 1;
+ border-style: solid;
+ border-color: rgb(189, 184, 184);
+ border-radius: 10px;
+ width: 300px;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 11px 10px;
+}
+
+.notifications {
+  background-color: rgb(43, 43, 248);
+  padding: 5px 15px; 
+  color: white;
+  border-radius: 15px;
+}
