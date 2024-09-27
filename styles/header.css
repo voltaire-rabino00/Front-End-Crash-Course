@@ -37,7 +37,7 @@
   padding-left: 12px;
   border-width: 1px;
   border-style: solid;
-  border-color: gray;
+  border-color: rgb(192, 192, 192);
   border-radius: 2px;
   box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0, 0.5);
 }
@@ -48,15 +48,41 @@
 }
 .search-button {
   height: 40px;
-  width: 60px;
+  width: 66px;
+  background-color: rgb(220, 217, 217);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(192, 192, 192);
+  margin-left: -1px;
+  margin-right: 10px;
+}
+
+.search-icon {
+  height: 25px;
+  margin-top: 4px;
 }
 .voice-search-button {
   height: 40px;
   width: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(245, 245, 245);
 }
 
+.voice-icon {
+  height: 24px;
+  margin-top: 4px;
+}
+
+/* Right section */
 .right-section {
-  background-color: lightblue;
-  width: 200px;
+  max-width: 250px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.upload-icon {
+  height: 25px;
 }
 
