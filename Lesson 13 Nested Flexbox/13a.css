@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.items {
+  background-color: lightpink;
+  display: flex;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.items1 {
+  background-color: lightblue;
+  width: 200px;
+}
